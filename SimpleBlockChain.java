@@ -151,8 +151,8 @@ public class SimpleBlockChain {
         Blockchain blockchain = new Blockchain();
         // Create student objects and add them to the blockchain
         Creditcard creditCard1 = new Creditcard("Jim Jones", 9999222244443333L, 105,"12/26", "Date: 7/7/23 | Huffy Bike | Price: $174.00 | Approved");
-        Creditcard creditCard2 = new Creditcard("Jim Jones", 9011021240043141L, 423,"1/27", "Date: 10/7/23 |  Iphone 15 Pro | Price: $1250.68 | Approved");
-        Creditcard creditCard3 = new Creditcard("Jim Jones", 9774887700219966L, 987,"2/28", "Date: 7/7/23 | PS5 | Price: $575.98 | Approved");
+        Creditcard creditCard2 = new Creditcard("Jeff Jarrett", 9011021240043141L, 423,"1/27", "Date: 10/7/23 |  Iphone 15 Pro | Price: $1250.68 | Approved");
+        Creditcard creditCard3 = new Creditcard("Steve Austin", 9774887700219966L, 987,"2/28", "Date: 7/7/23 | PS5 | Price: $575.98 | Approved");
 
         blockchain.addCreditCard(creditCard1);
         blockchain.addCreditCard(creditCard2);
